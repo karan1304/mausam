@@ -1,0 +1,97 @@
+.temperatureCard
+{
+    width:30%;
+    border-radius:20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap:1rem;
+    padding: 1rem;
+    box-shadow: 2px 5px 25px hsla(0, 0%, 71%, .5);
+}
+
+.temperatureDetails
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.temperatureDetails strong
+{
+    font-size: 7rem;
+    color: deepskyblue;
+}
+
+.temperatureDetails img
+{
+    width: 150px;
+}
+.current-location
+{
+    font-size: 1.5rem;
+    color:darkgray;
+}
+
+@media screen and (max-width:1440px)
+{
+    .temperatureDetails strong
+    {
+        font-size: 6rem;
+    }
+    .temperatureDetails
+    {
+        flex-direction: row;
+    }
+    .temperatureDetails img
+    {
+        width: 100%;
+        object-fit: cover;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .temperatureDetails strong
+    {
+        font-size: 4.5rem;
+    }
+    .temperatureDetails
+    {
+        flex-direction: column;
+    }
+    .temperatureDetails img
+    {
+        width: 100%;
+        object-fit: cover;
+        height: 100px;
+    }
+    .current-location
+    {
+        text-align: center;
+    }
+
+    
+}
+
+@media screen and (max-width:760px) {
+    .temperatureCard
+    {
+        width: 100%;
+    }
+
+    .temperatureDetails
+    {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .temperatureDetails img
+    {
+        width: 100px;
+        object-fit: cover;
+        height: 100px;
+    }
+    
+}
+

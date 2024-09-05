@@ -1,0 +1,44 @@
+.homecard
+{
+    width:700px;
+    /* height: 200px; */
+    margin:0px auto;
+}
+
+.image-container
+{
+    width: 100%;
+    height: 400px;
+}
+.image-container img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.homecard h1
+{
+    text-align: center;
+    font-size: 4rem;
+    color: deepskyblue;
+}
+
+@media screen and (max-width:780px) {
+    .homecard
+    {
+        width: 100%;
+    }
+    .image-container img
+    {
+    object-fit: cover;
+    }
+    
+}
+
+@media screen and (max-width:500px) {
+    .homecard h1
+    {
+        font-size: 2.5rem;
+    }    
+}

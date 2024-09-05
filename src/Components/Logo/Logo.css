@@ -1,0 +1,22 @@
+.logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    font-family: "Poppins", sans-serif;
+    gap:1rem;
+}
+
+.logo-img
+{
+    width:80px;
+    height:80px;
+}
+
+.app-name
+{
+    font-weight: 700;
+    color: deepskyblue;
+}
+

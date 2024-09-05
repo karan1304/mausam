@@ -1,0 +1,25 @@
+.additionalDetailsCard
+{
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:1.5rem;
+    padding:1rem 2rem;
+    border-radius: 20px;
+    background:url('../../assets/additonalDetailsCardBackground.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 0px;
+    box-shadow: 2px 5px 25px -3px hsla(0, 0%, 71%, .5);
+}
+
+
+@media screen and (max-width:760px) {
+    .additionalDetailsCard
+    {
+        width: 100%;
+    }
+    
+}

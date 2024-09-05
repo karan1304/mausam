@@ -1,0 +1,19 @@
+.differentCityCardContainer
+{
+    display: flex;
+    gap:1rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1rem;
+    border-radius: 20px;
+    box-shadow: 2px 5px 25px -3px hsla(0, 0%, 71%, .5);
+}
+
+@media screen and (max-width:760px) {
+    .differentCityCardContainer
+    {
+        justify-content: center;
+        align-items: center;
+    }
+}
